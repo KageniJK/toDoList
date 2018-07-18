@@ -5,13 +5,29 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/Jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
   <script src="js/scripts.js" charset="utf-8"></script>
   <title>Document</title>
 </head>
 
 <body>
+  <div class="container-fluid">
+    <h1>To Do List</h1>
+    <form class="entryList">
+      <label for="toDoInput">Enter your items here:</label>
+      <input type="text" id="toDoInput" class="form-control">
+      <button type="submit" class="btn-primary">List</button>
+    </form>
 
+    <div class="output">
+      <ul>
+
+      </ul>
+      <button type="button" class="remove">Remove Checked</button>
+      <button type="button" class="strike">Mark As Done</button>
+    </div>
+
+  </div>
 </body>
 
 </html>
